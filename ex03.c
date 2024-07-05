@@ -8,7 +8,12 @@ int main() {
     int rounds = 3;
     int headsCount = 0;
     int tailsCount = 0;
+    char name[20];
 
+    printf("Who are you?\n> ");
+    scanf("%s",name);
+    printf("Hello, %s!\n",name);
+    
     printf("Tossing a coin...\n");
     for (int round = 1; round <= rounds; round++) {
         int toss = rand() % 2; 
