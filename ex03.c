@@ -28,8 +28,8 @@ int main() {
 
     printf("Heads: %d, Tails: %d\n", headsCount, tailsCount);
 
-    if (headsCount > tailsCount) printf("You won\n");
-    else printf("You lost\n");
+    if (headsCount > tailsCount) printf("%s won\n",name);
+    else printf("$s lost\n",name);
     
     return 0;
 }
